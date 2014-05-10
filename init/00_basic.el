@@ -5,7 +5,7 @@
 (column-number-mode t)
 (show-paren-mode t)
 (electric-pair-mode t)
-(global-hl-line-mode t)
+;;(global-hl-line-mode t)
 (mouse-avoidance-mode 'animate)
 
 (setq frame-title-format "emacs@%b")
