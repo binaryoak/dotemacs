@@ -11,8 +11,8 @@
 (tool-bar-mode 0)
 (scroll-bar-mode 0)
 
-(set-face-attribute 'default nil :height 150)
-(set-frame-font "Inconsolata")
+(set-face-attribute 'default nil :height 120)
+;;(set-frame-font "Inconsolata")
 (dolist (charset '(kana han symbol cjk-misc bopomofo))
     (set-fontset-font (frame-parameter nil 'font)
                       charset
@@ -20,7 +20,7 @@
 
 ;; (load-theme 'zenburn t)
 ;; (load-theme 'obsidian t)
-(load-theme 'solarized-dark t)
+(load-theme 'tango-dark t)
 
 ;; eye candy
 (require 'powerline)
